@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8e8;
+    color: #333;
+}
+
+header {
+    background: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #005086;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #005b99;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 2% auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #d67302;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+img {
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #f8f8f8;
+    color: #333;
+}
+
+table, th, td {
+    border: 1px solid #606060;
+    padding: 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #cecece;
+    color: #00538a;
+}
+
+form {
+    flex-direction: column;
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    width: 100%;
+    display: block;
+}
+
+input, select, button {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    color: #333;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.acceptacio input {
+    width: auto;
+    gap: 10px;
+}
+
+button {
+    background: #007acc;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 14px;
+}
+
+button:hover {
+    background: #005b99;
+}
+
+#imatges h3 {
+    width: 100%;
+}
+
+#imatges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#imatges figure {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    color: #636363;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f4f4f4;
+    color: #333;
+    margin-top: 20px;
+}
